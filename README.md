@@ -7,3 +7,6 @@
 [AreayPerimetrodeuncirculo.java](AreayPerimetrodeuncirculo.java)
 
 [Fibonacci.java](Fibonacci.java)
+
+[FizzBuzz.java](FizzBuzz.java)
+
