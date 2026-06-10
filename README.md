@@ -2,7 +2,7 @@
 -------
 ## Introduccion
 ### El índice siguiente presenta los títulos de los códigos incluidos en este repositorio. Cada título se muestra en azul y funciona como un enlace que lleva directamente al código correspondiente.
-
+-------
  | Archivo | Descripción |
 |---------|-------------|
 | `AreayPerimetrodeuncirculo.java` | Calcula el área (\(A = \pi \times r^2\)) y el perímetro (\(P = 2 \times \pi \times r\)) de un círculo dado su radio |
