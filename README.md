@@ -16,3 +16,5 @@
 
 [numerosprimos.java](numerosprimos.java)
 
+[operacinaritmetica.java](operacinaritmetica.java)
+
