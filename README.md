@@ -1,7 +1,7 @@
 # Ejercicio-de-codigo
 -------
 ## Introduccion
-### En el índice de abajo encontrarás los títulos de los códigos subidos. Los títulos están en azul para que, al hacer clic en cualquiera de ellos, te lleve directamente al código correspondiente.
+### El índice siguiente presenta los títulos de los códigos incluidos en este repositorio. Cada título se muestra en azul y funciona como un enlace que lleva directamente al código correspondiente.
 
 #### Indice
 
