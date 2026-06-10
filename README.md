@@ -10,3 +10,5 @@
 
 [FizzBuzz.java](FizzBuzz.java)
 
+[Funciones.java](Funciones.java)
+
