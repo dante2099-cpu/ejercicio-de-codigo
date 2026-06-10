@@ -1,5 +1,3 @@
-# ejercicio-de-codigo
-
+# Ejercicio-de-codigo
+-------
 ##Introduccion
-###gmfg
-##indice 
