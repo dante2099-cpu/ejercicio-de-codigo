@@ -28,11 +28,6 @@
 
 [calculadora.java](calculadora.java)
 
-
-
-
-
-
 [dosvariablesparadosnumerosenteros.java](dosvariablesparadosnumerosenteros.java)
 
 [numerosprimos.java](numerosprimos.java)
@@ -61,4 +56,6 @@
 | `operacinaritmetica.java` | Realiza operaciones aritméticas básicas entre números |
 | `pizza.java` | Programa relacionado con cálculos de pizza como área, costo por porción o cantidad de ingredientes |
 | `arreglos.java` | Demuestra el uso de arreglos o arrays en Java incluyendo creación, llenado e iteración sobre elementos |
-| `contraseña.java` | Programa de validación de contraseña que verifica longitud,caracteres especiales o compara con una contraseña almacenada |
+| `contraseña.java` | Programa de validación de contraseña que verifica longitud, caracteres especiales o compara con una contraseña almacenada |
+| `Calculator.java` | Calculadora en Java que utiliza métodos (suma, resta, multiplicación, división) definidos en la clase Functions para realizar operaciones aritméticas |
+| `promedio.java` | Calcula el promedio de calificaciones y determina si estudiantes obtienen becas basándose en calificaciones (≥90), asistencias (≥80%) y participación en concursos, usando ArrayList para almacenar datos de 10 estudiantes |
