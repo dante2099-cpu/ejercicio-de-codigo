@@ -1,7 +1,8 @@
 # Ejercicio-de-codigo
 -------
 ## Introduccion
-### El índice siguiente presenta los títulos de los códigos incluidos en este repositorio. Cada título se muestra en azul y funciona como un enlace que lleva directamente al código correspondiente.
+
+### El índice siguiente presenta los títulos de los códigos incluidos en este repositorio. Cada título se muestra en azul y funciona como un enlace que lleva directamente al código correspondiente. Al final del documento, se incluye una tabla con la descripción de lo que hace cada archivo.
 -------
 #### Indice
 
