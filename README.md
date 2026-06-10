@@ -61,6 +61,6 @@
 | `operacinaritmetica.java` | Realiza operaciones aritméticas básicas entre números |
 | `pizza.java` | Programa relacionado con cálculos de pizza como área, costo por porción o cantidad de ingredientes |
 | `arreglos.java` | Demuestra el uso de arreglos o arrays en Java incluyendo creación, llenado e iteración sobre elementos |
-| `contraseña.java` | Programa de validación de contraseña que verifica longitud, caracteres especiales o compara con una contraseña almacenada |
+| `contraseña.java` | Programa de validación de contraseña que verifica longitud,caracteres especiales o compara con una contraseña almacenada |
 
 erifica longitud, caracteres especiales o compara con una contraseña almacenada |
