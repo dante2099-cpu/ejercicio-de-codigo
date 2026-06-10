@@ -14,3 +14,5 @@
 
 [dosvariablesparadosnumerosenteros.java](dosvariablesparadosnumerosenteros.java)
 
+[numerosprimos.java](numerosprimos.java)
+
