@@ -12,3 +12,5 @@
 
 [Funciones.java](Funciones.java)
 
+[dosvariablesparadosnumerosenteros.java](dosvariablesparadosnumerosenteros.java)
+
