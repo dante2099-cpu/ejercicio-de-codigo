@@ -44,6 +44,10 @@
 
 [promedio.java](promedio.java)
 
+[ParesImpares.java](ParesImpares.java)
+
+
+
 -------
 | Archivo | Descripción |
 |---------|-------------|
