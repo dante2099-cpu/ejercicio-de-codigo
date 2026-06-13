@@ -67,3 +67,7 @@
 | `contraseña.java` | Programa de validación de contraseña que verifica longitud, caracteres especiales o compara con una contraseña almacenada |
 | `Calculator.java` | Calculadora en Java que utiliza métodos (suma, resta, multiplicación, división) definidos en la clase Functions para realizar operaciones aritméticas |
 | `promedio.java` | Calcula el promedio de calificaciones y determina si estudiantes obtienen becas basándose en calificaciones (≥90), asistencias (≥80%) y participación en concursos, usando ArrayList para almacenar datos de 10 estudiantes |
+| `ParesImpares.java` | Genera 20 números aleatorios, los almacena en una cola, y separa en dos colas: números pares y números impares mostrando ambos y sus totales |
+| `FilaPersonas.java` | Simula una fila (cola) de personas usando Queue: agrega 5 nombres, muestra quién está al frente, atiende (poll) dos personas y muestra la fila y conteo restante |
+| `InvertirPalabra.java` | Pide una palabra por teclado, la invierte usando una pila (Stack), muestra la palabra invertida y verifica si es palíndromo |
+| `Cafeteria.java` | Simula el sistema de una cafetería con menú interactivo: cola de clientes (Queue) para llegada/atención, pila (Stack) para pedidos cancelados, opciones para mostrar estado y salir |
