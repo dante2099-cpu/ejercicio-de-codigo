@@ -50,6 +50,8 @@
 
 [InvertirPalabra.java](InvertirPalabra.java)
 
+[Cafeteria.java](Cafeteria.java)
+
 -------
 | Archivo | Descripción |
 |---------|-------------|
