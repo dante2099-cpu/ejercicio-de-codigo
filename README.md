@@ -48,6 +48,8 @@
 
 [classFilaPersonas.java](classFilaPersonas.java)
 
+[InvertirPalabra.java](InvertirPalabra.java)
+
 -------
 | Archivo | Descripción |
 |---------|-------------|
