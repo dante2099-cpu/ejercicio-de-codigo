@@ -24,8 +24,6 @@
 
 [arreglos.java](arreglos.java)
 
-[contraseña.java](contraseña.java)
-
 [calculadora.java](calculadora.java)
 
 [dosvariablesparadosnumerosenteros.java](dosvariablesparadosnumerosenteros.java)
