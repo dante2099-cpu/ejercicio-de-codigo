@@ -52,7 +52,7 @@
 
 [ConEncapsulado.java](ConEncapsulado.java)
 
-
+[SinEncapsulamiento.java](SinEncapsulamiento.java)
 
 -------
 | Archivo | Descripción |
