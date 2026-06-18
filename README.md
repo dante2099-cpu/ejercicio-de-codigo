@@ -73,3 +73,5 @@
 | `classFilaPersonas.java` | Simula una fila (cola) de personas usando Queue: agrega 5 nombres, muestra quién está al frente, atiende (poll) dos personas y muestra la fila y conteo restante |
 | `InvertirPalabra.java` | Pide una palabra por teclado, la invierte usando una pila (Stack), muestra la palabra invertida y verifica si es palíndromo |
 | `Cafeteria.java` | Simula el sistema de una cafetería con menú interactivo: cola de clientes (Queue) para llegada/atención, pila (Stack) para pedidos cancelados, opciones para mostrar estado y salir |
+| `ConEncapsulado.java` | Clase `PerroConEncapsulado` que demuestra encapsulamiento en Java: atributos privados (nombre, raza, edad), constructor, getters/setters con validación (edad ≥ 0), y métodos ladrar/presentarse |
+| `SinEncapsulamiento.java` | Clase `PerroSinEncapsulado` que muestra lo contrario del encapsulamiento: atributos públicos (nombre, raza, edad) accesibles directamente sin validación, sin getters/setters, y métodos ladrar/presentarse |
