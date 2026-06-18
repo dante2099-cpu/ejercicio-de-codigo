@@ -50,6 +50,10 @@
 
 [Cafeteria.java](Cafeteria.java)
 
+[ConEncapsulado.java](ConEncapsulado.java)
+
+
+
 -------
 | Archivo | Descripción |
 |---------|-------------|
