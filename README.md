@@ -56,7 +56,7 @@
 
 [cursos.java](cursos.java)
 
--------
+---------
 | Archivo | Descripción |
 |---------|-------------|
 | `AreayPerimetrodeuncirculo.java` | Calcula el área y el perímetro de un círculo dado su radio |
