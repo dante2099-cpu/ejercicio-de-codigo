@@ -92,20 +92,9 @@
 [busquedayactualizacion.java](busquedayactualizacion.java)
 
 --------
-
-# 📊 Cuadro Comparativo — Estructuras de Datos
-
-## Función del cuadro comparativo
-Este cuadro comparativo tiene la función de mostrar, de manera clara y ordenada, las diferencias y similitudes entre varias estructuras de datos.  
-Permite identificar rápidamente cómo trabaja cada una, en qué casos se usa, cuáles son sus características principales y qué las hace distintas entre sí.
-
-
-
-## Archivos del proyecto
-
 | Archivo | Descripción |
 |--------|-------------|
-| `Nodo.java` |
+| `Cuadrocomparativo.md` |Este cuadro comparativo tiene la función de mostrar, de manera clara y ordenada, las diferencias y similitudes entre varias estructuras de datos.  Permite identificar rápidamente cómo trabaja cada una, en qué casos se usa, cuáles son sus características principales y qué las hace distintas entre sí.|
 | `Nodo.java` | Clase que representa un nodo simple de una lista enlazada. Contiene un dato y una referencia al siguiente nodo. Incluye un ejemplo en `main` para crear, enlazar e imprimir nodos. |
 | `ListaEnlazadaBasica.java` | Ejemplo básico de una lista enlazada usando una clase interna `Nodo`. Construye una lista manualmente y la recorre para mostrar cómo se conectan los nodos. |
 | `busquedayactualizacion.java` | Implementación de búsqueda y actualización dentro de una lista enlazada. Incluye métodos para encontrar un nodo por su dato y modificarlo si existe. |
