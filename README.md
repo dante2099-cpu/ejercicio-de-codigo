@@ -78,3 +78,9 @@
 | `ConEncapsulado.java` | Clase `PerroConEncapsulado` que demuestra encapsulamiento en Java: atributos privados (nombre, raza, edad), constructor, getters/setters con validación (edad ≥ 0), y métodos ladrar/presentarse |
 | `SinEncapsulamiento.java` | Clase `PerroSinEncapsulado` que muestra lo contrario del encapsulamiento: atributos públicos (nombre, raza, edad) accesibles directamente sin validación, sin getters/setters, y métodos ladrar/presentarse |
 | `Curso.java` | Sistema de gestión de cursos con menú interactivo: usa `ArrayList` para lista de cursos (clase interna `curso` con atributos privados, getters/setters, inscribir/dar de baja), `Stack` para historial de acciones, búsqueda por clave, inscripciones (aleatoria/manual), bajas aleatorias, eliminación, estadísticas con ranking y gráfica de barras de ocupación |
+---------
+#Segundo Parcial
+---------
+##Indice segundo
+
+[Cuadro comparativo.md](Cuadrocomparativo.md)
