@@ -95,7 +95,7 @@
 --------
 | Archivo | Descripción |
 |--------|-------------|
-| `Cuadrocomparativo.md` |Este cuadro comparativo tiene la función de mostrar, de manera clara y ordenada, las diferencias y similitudes entre varias estructuras de datos.  Permite identificar rápidamente cómo trabaja cada una, en qué casos se usa, cuáles son sus características principales y qué las hace distintas entre sí.|
+| `Cuadrocomparativo.md` | Este cuadro comparativo tiene la función de mostrar, de manera clara y ordenada, las diferencias y similitudes entre varias estructuras de datos. Permite identificar rápidamente cómo trabaja cada una, en qué casos se usa, cuáles son sus características principales y qué las hace distintas entre sí. |
 | `ListaEnlazadaBasica.java` | Ejemplo básico de una lista enlazada usando una clase interna `Nodo`. Construye una lista manualmente y la recorre para mostrar cómo se conectan los nodos. |
 | `busquedayactualizacion.java` | Implementación de búsqueda y actualización dentro de una lista enlazada. Incluye métodos para encontrar un nodo por su dato y modificarlo si existe. |
-|`Nodomenu.java`|Cada operación está implementada como un método estático (agregar, buscar, actualizar, eliminar, mostrar) que recorre la lista enlazada desde el inicio, y en los casos de agregar y eliminar se devuelve el nuevo inicio de la lista (porque puede cambiar si se agrega en una lista vacía o se elimina el primer nodo).|
+| `Nodomenu.java` | Es un programa en Java que implementa una lista enlazada simple usando una clase `Nodo`, donde cada nodo guarda un dato (`String`) y una referencia al siguiente nodo (`siguienteNodo`). El programa ofrece un menú interactivo por consola (usando `Scanner`) que se repite en un bucle infinito, permitiendo al usuario: agregar un nodo al final de la lista, buscar un nodo por su dato, actualizar el dato de un nodo existente, eliminar un nodo por su dato, y mostrar todos los nodos de la lista en orden. |
