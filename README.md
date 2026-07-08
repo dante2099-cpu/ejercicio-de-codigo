@@ -89,9 +89,13 @@
 
 [busquedayactualizacion.java](busquedayactualizacion.java)
 
+[Nodomenu.java](Nodomenu.java)
+
+
 --------
 | Archivo | Descripción |
 |--------|-------------|
 | `Cuadrocomparativo.md` |Este cuadro comparativo tiene la función de mostrar, de manera clara y ordenada, las diferencias y similitudes entre varias estructuras de datos.  Permite identificar rápidamente cómo trabaja cada una, en qué casos se usa, cuáles son sus características principales y qué las hace distintas entre sí.|
 | `ListaEnlazadaBasica.java` | Ejemplo básico de una lista enlazada usando una clase interna `Nodo`. Construye una lista manualmente y la recorre para mostrar cómo se conectan los nodos. |
 | `busquedayactualizacion.java` | Implementación de búsqueda y actualización dentro de una lista enlazada. Incluye métodos para encontrar un nodo por su dato y modificarlo si existe. |
+|`Nodomenu.java`|Cada operación está implementada como un método estático (agregar, buscar, actualizar, eliminar, mostrar) que recorre la lista enlazada desde el inicio, y en los casos de agregar y eliminar se devuelve el nuevo inicio de la lista (porque puede cambiar si se agrega en una lista vacía o se elimina el primer nodo).|
