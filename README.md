@@ -89,6 +89,8 @@
 
 [busquedayactualizacion.java](busquedayactualizacion.java)
 
+[ListaDoble.java](ListaDoble.java)
+
 --------
 | Archivo | Descripción |
 |--------|-------------|
