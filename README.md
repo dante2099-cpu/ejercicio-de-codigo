@@ -115,4 +115,4 @@
 
 [arbolamano.java](arbolamano.java)
 
-[arbolcomputadora,java.txt](arbolcomputadora,java.txt)
+[arbolcomputadora.java](arbolcomputadora.java)
