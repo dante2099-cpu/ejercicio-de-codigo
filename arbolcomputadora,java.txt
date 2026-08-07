@@ -1,0 +1,60 @@
+class Nodo {
+    int valor;
+    Nodo izquierdo, derecho;
+    public Nodo(int valor) {
+        this.valor = valor;
+        this.izquierdo = this.derecho = null;
+    }
+}
+class ArbolBinario {
+    Nodo raiz;
+
+    public ArbolBinario() {
+        this.raiz = null;
+    }
+    public void insertar(int valor) {
+        raiz = insertarRecursivo(raiz, valor);
+    }
+    private Nodo insertarRecursivo(Nodo actual, int valor) {
+        if (actual == null) return new Nodo(valor);
+        if (valor < actual.valor) {
+            actual.izquierdo = insertarRecursivo(actual.izquierdo, valor);
+        } else if (valor > actual.valor) {
+            actual.derecho = insertarRecursivo(actual.derecho, valor);
+        }
+        return actual;
+    }
+    public void inorden() {
+        System.out.print("Recorrido Inorden: ");
+        inordenRecursivo(raiz);
+        System.out.println();
+    }
+    private void inordenRecursivo(Nodo actual) {
+        if (actual != null) {
+            inordenRecursivo(actual.izquierdo);
+            System.out.print(actual.valor + " ");
+            inordenRecursivo(actual.derecho);
+        }
+    }
+    public void imprimirArbol() {
+        System.out.println("Estructura Visual del Árbol:");
+        imprimirArbolRecursivo(raiz, "", true);
+    }
+    private void imprimirArbolRecursivo(Nodo nodo, String prefijo, boolean esIzquierdo) {
+        if (nodo != null) {
+            System.out.println(prefijo + (esIzquierdo ? "├── " : "└── ") + nodo.valor);
+            imprimirArbolRecursivo(nodo.izquierdo, prefijo + (esIzquierdo ? "│   " : "    "), true);
+            imprimirArbolRecursivo(nodo.derecho, prefijo + (esIzquierdo ? "│   " : "    "), false);
+        }
+    }
+    public static void main(String[] args) {
+        ArbolBinario arbol = new ArbolBinario();
+        int[] numeros = {50, 30, 20, 40, 70, 60, 80};
+        System.out.println("--- Insertando números: 50, 30, 20, 40, 70, 60, 80");
+        for (int num : numeros) arbol.insertar(num);
+        System.out.println("\n1. Representación Visual");
+        arbol.imprimirArbol();
+        System.out.println("\n2. Recorrido Inorden");
+        arbol.inorden();
+    }
+}
