@@ -105,3 +105,9 @@
 | `ListaDoble.java` | Implementación de una lista doblemente enlazada usando una clase interna NodoDoble con referencias prev y next. Incluye métodos para insertar al final, buscar, actualizar y eliminar un nodo (ajustando ambos enlaces), además de recorrer la lista en ambos sentidos (adelante y atrás). El programa cuenta con un menú interactivo por consola (usando Scanner) que permite al usuario ejecutar todas estas operaciones hasta elegir salir. |
 | `recursivoconfibonacci.java` | Programa en Java que calcula la serie de Fibonacci usando recursividad. El método `fibonacci(n)` se llama a sí mismo para obtener cada término, con dos casos base (`n = 0` y `n = 1`). El usuario indica por consola (usando `Scanner`) cuántos términos de la serie desea ver, y el programa los muestra en orden consecutivo separados por comas. |
 | `Curso2.java` | Sistema de gestión de cursos (Parcial 2) con lista simple y lista doble enlazadas manualmente, pila para historial de acciones, ArrayList y Random para inscripciones/bajas. Menú interactivo con: agregar/buscar/eliminar curso, inscribir y dar de baja estudiantes (manual o aleatorio), mostrar lista en ambos sentidos, navegador tipo carrusel (nodos doble enlace), conteo y búsqueda recursiva de cursos, historial de acciones (pila) y estadísticas con ranking y gráfica de barras de ocupación. |
+
+---------
+# tercer Parcial
+
+## Indice tercer
+
