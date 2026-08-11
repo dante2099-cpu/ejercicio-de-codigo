@@ -116,3 +116,17 @@
 [arbolamano.java](arbolamano.java)
 
 [arbolcomputadora.java](arbolcomputadora.java)
+
+| Aspecto | GrafoMatriz.java | arbolamano.java | arbolcomputadora.java |
+|---|---|---|---|
+| **Estructura de datos** | Grafo no dirigido con matriz de adyacencia | Árbol binario (nodos con hijo izq/der) | Árbol Binario de Búsqueda (BST) |
+| **Clases** | `GrafoMatriz`, `GrafoMatrizApp` | `Nodo`, `ArbolBinarioCompleto` | `Nodo`, `ArbolBinario` |
+| **Almacenamiento** | Lista de vértices + matriz `int[][]` | Nodos enlazados por referencias (`izquierdo`, `derecho`) | Nodos enlazados por referencias (`izquierdo`, `derecho`), con raíz en `ArbolBinario` |
+| **Interacción** | Interactivo (usa `Scanner` para pedir datos al usuario) | Estático (los valores están fijos en el código) | Estático (arreglo de valores fijo en el `main`) |
+| **Construcción** | Dinámica: el usuario define cantidad de vértices, nombres y aristas | Manual: cada nodo se crea y enlaza directamente en el `main` | Automática: método `insertar()` recursivo respeta las reglas del BST |
+| **Validaciones** | Sí: vértices vacíos/duplicados, aristas con vértices inexistentes, entrada numérica | No: no hay validaciones, valores predefinidos | No: no valida duplicados ni entradas (valores predefinidos en arreglo) |
+| **Salida principal** | Matriz de adyacencia impresa en consola | Mensajes de confirmación por cada inserción | Representación visual del árbol (estilo directorio) + recorrido inorden |
+| **Métodos clave** | `agregarVertice()`, `agregarArista()`, `mostrarMatrizAdyacencia()` | Ninguno (todo ocurre en el `main`) | `insertar()`, `inorden()`, `imprimirArbol()` (con sus versiones recursivas) |
+| **Recorridos/algoritmos** | No implementa búsquedas ni recorridos | No implementa recorridos (inorden, preorden, etc.) | Sí: recorrido inorden (izquierda → raíz → derecha) |
+| **Propósito** | Programa funcional para construir y visualizar un grafo | Ejemplo didáctico de estructura de árbol binario | Programa funcional de BST con inserción, recorrido y visualización |
+| **Nivel de complejidad** | Medio (manejo de listas, matrices, validación de entradas) | Básico (solo asignación de referencias) | Medio-alto (recursividad en inserción, recorrido y visualización) |
