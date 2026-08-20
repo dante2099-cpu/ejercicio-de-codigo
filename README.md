@@ -130,3 +130,8 @@
 | **Recorridos/algoritmos** | No implementa búsquedas ni recorridos | No implementa recorridos (inorden, preorden, etc.) | Sí: recorrido inorden (izquierda → raíz → derecha) |
 | **Propósito** | Programa funcional para construir y visualizar un grafo | Ejemplo didáctico de estructura de árbol binario | Programa funcional de BST con inserción, recorrido y visualización |
 | **Nivel de complejidad** | Medio (manejo de listas, matrices, validación de entradas) | Básico (solo asignación de referencias) | Medio-alto (recursividad en inserción, recorrido y visualización) |
+
+---------------
+## Introduccion
+
+### En las siguiente listas se mostrara la evolucion de los codigos yamados cursos que muestra una lista que inicial mente inicia con nueve instrucciones
