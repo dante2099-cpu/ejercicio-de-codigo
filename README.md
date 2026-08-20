@@ -143,3 +143,34 @@
 [Curso2.java](Curso2.java)
 
 [Curso3.java](Curso3.java)
+
+
+## 🚀 Evolución del proyecto
+
+| Parcial | Archivo | Estructuras principales | Enfoque |
+|---|---|---|---|
+| **1** | `Curso.java` | `ArrayList`, `Stack` | CRUD básico de cursos + historial de acciones |
+| **2** | `Curso2.java` | Lista simple, lista doble, recursividad | Reemplazo del `ArrayList` por listas enlazadas propias y navegación tipo carrusel |
+| **3** | `curso3.java` | Lista simple, árbol binario de búsqueda, grafo, algoritmos de ordenamiento y búsqueda | Estructuras jerárquicas y de relación, más análisis de eficiencia |
+
+### Parcial 1 — `Curso.java`
+- Gestión de cursos con `ArrayList<curso>`.
+- Inscripción y baja de estudiantes (aleatoria o manual).
+- Búsqueda lineal por clave.
+- Historial de acciones implementado con `Stack`.
+- Módulo de estadísticas con gráfica de barras en ASCII.
+
+### Parcial 2 — `Curso2.java`
+- Migración del `ArrayList` a una **lista simple enlazada** (`ListaSimple` / `NodoSimple`) como estructura principal.
+- Incorporación de una **lista doblemente enlazada** (`ListaDoble` / `NodoDoble`) para recorridos en ambos sentidos.
+- **Navegador tipo carrusel**: permite moverse curso por curso (siguiente/anterior) usando la lista doble.
+- Métodos **recursivos** para contar cursos y buscar por clave.
+- Se conserva el historial de acciones y las estadísticas (sin la gráfica de barras).
+
+### Parcial 3 — `curso3.java`
+- Cada curso ahora tiene un **ID numérico** además de su clave.
+- **Árbol Binario de Búsqueda (BST)** (`ArbolCursos`) indexado por ID, con inserción, búsqueda y recorrido inorden, todo de forma recursiva.
+- **Grafo dirigido y ponderado** (`GrafoCursos`) para modelar relaciones entre cursos (por ejemplo, prerrequisitos), representado con lista y matriz de adyacencia.
+- **Algoritmos de ordenamiento**: Bubble Sort directo, Bubble Sort inverso, Inserción directa y Selección directa, aplicables sobre 5 criterios distintos (ID, clave, nombre, cupo, inscritos).
+- **Algoritmos de búsqueda**: búsqueda secuencial y búsqueda binaria, con conteo de pasos y comparación de eficiencia entre ambas.
+- Se elimina la lista doble, el carrusel y el módulo de estadísticas gráficas para dar espacio a las nuevas estructuras.
