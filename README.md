@@ -134,7 +134,7 @@
 ---------------
 ## Introduccion
 
-### En la siguiente lista de enlaces se muestra la evolución de los proyectos (cursos) desarrollados en Java. Inicialmente, el programa contaba con nueve opciones en el menú; posteriormente se amplió a catorce, y actualmente cuenta con dieciocho opciones, incorporando diferentes tipos de librerías y estructuras de datos. 
+### En la siguiente lista de enlaces se muestra la evolución de los proyectos (cursos) desarrollados en Java a lo largo del curso. El sistema inició con un menú de nueve opciones, basado en estructuras de datos básicas como ArrayList y Stack. En una segunda etapa, se amplió a catorce opciones, incorporando listas enlazadas simples y dobles, así como métodos recursivos. Finalmente, en su versión actual, el sistema cuenta con dieciocho opciones e integra estructuras más avanzadas —como árboles binarios de búsqueda y grafos—, además de distintos algoritmos de ordenamiento y búsqueda, reflejando así el progreso incremental en el manejo de estructuras de datos y librerías de Java.
 ---------------
 #### Indice
 
